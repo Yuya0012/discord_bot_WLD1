@@ -8,7 +8,7 @@ from myserver import server_on
 
 # ====== CONFIG ======
 TOKEN = "YOUR_BOT_TOKEN"            # 🔹 ใส่โทเคนบอทที่ได้จาก Discord
-CHANNEL_ID = 123456789012345678     # 🔹 ใส่ Channel ID ที่จะส่งข้อความ
+CHANNEL_ID = 1431155869109850166     # 🔹 ใส่ Channel ID ที่จะส่งข้อความ
 TARGET_PRICE = 5.0                  # 🔹 ราคาที่ต้องการให้แจ้งเตือน (USD)
 CHECK_INTERVAL = 60                 # 🔹 ตรวจสอบทุก 60 วินาที
 
@@ -47,3 +47,4 @@ async def check_price():
 server_on()
 
 client.run(os.getenv('TOKEN'))
+
